@@ -1,0 +1,9 @@
+title: My Website
+description: >-
+  Welcome to my site built with GitHub Pages and Jekyll.
+theme: jekyll-theme-minimal
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
