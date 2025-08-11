@@ -1,9 +1,13 @@
 title: My Website
-description: >-
-  Welcome to my site built with GitHub Pages and Jekyll.
-theme: jekyll-theme-minimal
+description: A simple GitHub Pages site with a Jekyll theme.
+
+# EITHER use a built-in theme:
+# theme: jekyll-theme-cayman
+
+# OR use a remote theme (gives you more options):
+remote_theme: pages-themes/cayman
+plugins:
+  - jekyll-remote-theme
+
 markdown: kramdown
 highlighter: rouge
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
