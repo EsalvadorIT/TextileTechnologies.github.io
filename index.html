@@ -1,75 +1,27 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Textile Technologies</title>
-  <meta name="description" content="Green-tech themed site for Textile Technologies." />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <div class="container nav">
-      <div class="logo">Textile <span>Technologies</span></div>
-      <button class="menu-btn" aria-label="Toggle menu" onclick="document.getElementById('menu').classList.toggle('show')">☰</button>
-      <nav id="menu">
-        <a href="#about">About</a>
-        <a href="#solutions">Solutions</a>
-        <a href="#support">Support</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+---
+layout: default
+title: Home
+---
 
-  <section class="hero">
-    <div class="container">
-      <h1>Green, fast, and reliable.</h1>
-      <p>We build sustainable, efficient software solutions for route management and operations.</p>
-      <a class="btn" href="#contact">Get in touch</a>
-    </div>
+<!-- Header Section -->
+<header style="text-align:center; padding:2rem 1rem; background:linear-gradient(120deg, #1f52a5, #309c2f); color:#fefefe;">
+  <h1 style="margin-bottom:0.5rem;">Welcome To Textile Technologies</h1>
+  <h2 style="font-weight:300;">Empower Your Business With Innovative Software Solutions</h2>
+</header>
+
+<!-- Main Content -->
+<main style="max-width:900px; margin:2rem auto; padding:1.5rem;">
+
+  <!-- Info Box -->
+  <div style="background:#fefefe; border:2px solid #309c2f; padding:1.5rem; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
+    <p style="font-size:1.1rem; line-height:1.6;">
+      At Textile Technologies, we are dedicated to providing innovative software solutions and personalized tech support to help businesses thrive.
+    </p>
+  </div>
+
+  <!-- Supporting Businesses Section -->
+  <section style="text-align:center; margin-top:2rem;">
+    <h3 style="color:#1f52a5;">Supporting Small Businesses Since 1993</h3>
   </section>
 
-  <main class="container">
-    <section id="about">
-      <h2>About</h2>
-      <p>Textile Technologies helps teams modernize systems with clean interfaces, data-driven workflows, and practical support.</p>
-    </section>
-
-    <section id="solutions">
-      <h2>Solutions</h2>
-      <div class="cardgrid">
-        <article class="card">
-          <h3>Implementation</h3>
-          <p>From setup to training, we get you live smoothly.</p>
-        </article>
-        <article class="card">
-          <h3>Custom Reporting</h3>
-          <p>Crystal Reports, dashboards, and audits tailored to you.</p>
-        </article>
-        <article class="card">
-          <h3>Support</h3>
-          <p>Fast troubleshooting and continuous improvements.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="support">
-      <h2>Support</h2>
-      <p>Visit our troubleshooting guide or message our team for help.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: support@textiletechnologies.com</p>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">© <span id="y"></span> Textile Technologies</div>
-  </footer>
-
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+</main>
