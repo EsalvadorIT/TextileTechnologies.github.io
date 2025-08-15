@@ -1,13 +1,5 @@
-title: My Website
-description: A simple GitHub Pages site with a Jekyll theme.
-
-# EITHER use a built-in theme:
-# theme: jekyll-theme-cayman
-
-# OR use a remote theme (gives you more options):
-remote_theme: pages-themes/cayman
+title: Textile Technologies
+description: Green-tech themed site
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
-
-markdown: kramdown
-highlighter: rouge
