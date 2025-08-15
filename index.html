@@ -4,29 +4,72 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Textile Technologies</title>
-  <style>
-    body { margin:0; font-family: system-ui, Arial, sans-serif; line-height:1.5; }
-    header, footer { background:#0f172a; color:#e5e7eb; padding:1rem; }
-    main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
-    a { color:#22d3ee; text-decoration:none; }
-    .hero { padding:3rem 0; }
-    .btn { display:inline-block; background:#22d3ee; color:#06252c; padding:.6rem 1rem; border-radius:.5rem; font-weight:600; }
-  </style>
+  <meta name="description" content="Green-tech themed site for Textile Technologies." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header><strong>Textile Technologies</strong></header>
-  <main>
-    <section class="hero">
-      <h1>Route management solutions that just work.</h1>
-      <p>This is our new site. We’ll add pages and styling as we go.</p>
-      <a class="btn" href="#contact">Contact us</a>
+  <header>
+    <div class="container nav">
+      <div class="logo">Textile <span>Technologies</span></div>
+      <button class="menu-btn" aria-label="Toggle menu" onclick="document.getElementById('menu').classList.toggle('show')">☰</button>
+      <nav id="menu">
+        <a href="#about">About</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#support">Support</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Green, fast, and reliable.</h1>
+      <p>We build sustainable, efficient software solutions for route management and operations.</p>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>Textile Technologies helps teams modernize systems with clean interfaces, data-driven workflows, and practical support.</p>
     </section>
+
+    <section id="solutions">
+      <h2>Solutions</h2>
+      <div class="cardgrid">
+        <article class="card">
+          <h3>Implementation</h3>
+          <p>From setup to training, we get you live smoothly.</p>
+        </article>
+        <article class="card">
+          <h3>Custom Reporting</h3>
+          <p>Crystal Reports, dashboards, and audits tailored to you.</p>
+        </article>
+        <article class="card">
+          <h3>Support</h3>
+          <p>Fast troubleshooting and continuous improvements.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="support">
+      <h2>Support</h2>
+      <p>Visit our troubleshooting guide or message our team for help.</p>
+    </section>
+
     <section id="contact">
       <h2>Contact</h2>
       <p>Email: support@textiletechnologies.com</p>
     </section>
   </main>
-  <footer>© <span id="y"></span> Textile Technologies</footer>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+
+  <footer>
+    <div class="container">© <span id="y"></span> Textile Technologies</div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
