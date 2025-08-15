@@ -1,0 +1,49 @@
+/* Textile Technologies — Cayman theme overrides */
+
+/* Brand Colors */
+:root {
+  --brand-blue:  #1f52a5;  /* Dark blue (textile) */
+  --brand-green: #309c2f;  /* Bright green (technologies) */
+  --brand-brown: #673f0b;  /* Dark brown (software) */
+  --brand-white: #fefefe;  /* Nearly white (background/highlight) */
+}
+
+/* Header (Cayman uses a big colored header) */
+header.page-header {
+  background: linear-gradient(120deg, var(--brand-blue), var(--brand-green)) !important;
+  color: var(--brand-white) !important;
+}
+
+/* Site title & tagline (in the header) */
+.project-name,
+.project-tagline {
+  color: var(--brand-white) !important;
+}
+
+/* Links */
+a { color: var(--brand-green) !important; }
+a:hover { color: var(--brand-blue) !important; }
+
+/* Buttons (if you use .btn links) */
+.btn, .button, .site-button {
+  background: var(--brand-green) !important;
+  border-color: var(--brand-blue) !important;
+  color: var(--brand-white) !important;
+}
+.btn:hover, .button:hover, .site-button:hover {
+  background: var(--brand-blue) !important;
+}
+
+/* Footer */
+footer, .site-footer {
+  background: var(--brand-brown) !important;
+  color: var(--brand-white) !important;
+}
+footer a, .site-footer a { color: var(--brand-green) !important; }
+footer a:hover, .site-footer a:hover { color: var(--brand-white) !important; }
+
+/* Body */
+body {
+  background: var(--brand-white) !important;
+  color: #1b1b1b !important;
+}
