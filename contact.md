@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Contact Us
+permalink: /contact/
 ---
-
-{% include top-nav.html %}
 
 # Contact Us
 
@@ -26,7 +25,7 @@ Cleburne, TX 76033
 ---
 
 <p style="text-align:center; margin-top:2rem;">
-  <a href="/contact" style="padding:0.8rem 1.5rem; background:#309c2f; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold; font-size:1.1rem;">
+  <a href="{{ "/contact/" | relative_url }}" style="padding:0.8rem 1.5rem; background:#309c2f; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold; font-size:1.1rem;">
     Request a Demo / Get a Quote
   </a>
 </p>
