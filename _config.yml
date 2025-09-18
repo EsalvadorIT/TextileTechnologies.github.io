@@ -2,8 +2,8 @@ title: Textile Technologies
 description: Green-tech themed site
 
 # User/Org site settings
-url: "https://textiletechnologies.github.io"  # full site URL
-baseurl: ""                                   # must be empty for user/org sites
+url: "https://esalvadorit.github.io"
+baseurl: "/TextileTechnologies.github.io"
 
 # Theme (GitHub Pages–compatible)
 remote_theme: pages-themes/cayman@v0.2.0
