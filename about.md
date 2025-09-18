@@ -1,4 +1,4 @@
-<a href="{{ '/about/'  | relative_url }}">About</a>
+<a href="{{ '/about/' | relative_url }}">About Us</a>
 ---
 layout: default
 title: About
