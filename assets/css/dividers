@@ -1,0 +1,29 @@
+/* assets/css/custom.css */
+:root{
+  /* If you know your exact blue, put it here. 
+     #1e6bb8 is the Cayman theme link blue and a good default. */
+  --brand-blue: #1e6bb8;
+}
+
+/* Simple solid line */
+.tt-divider{
+  border: 0;
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: var(--brand-blue);
+  margin: 2rem 0;
+  border-radius: 2px;
+}
+
+/* Optional: subtle fade from blue to transparent */
+.tt-divider.fade{
+  height: 2px;
+  background: linear-gradient(to right, var(--brand-blue), transparent 70%);
+}
+
+/* Optional: thin rule */
+.tt-divider.thin{
+  height: 1px;
+  opacity: 0.7;
+}
