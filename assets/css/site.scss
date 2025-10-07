@@ -163,3 +163,13 @@ hr{border:0; border-top:1px solid var(--border); margin:2rem 0}
   border-top:none !important;
 }
 .site-footer a, .site-footer-credits{ color:#fff !important; }
+
+/* Last section on a page: neutral background */
+.main-content > section:last-of-type{
+  background:#fff !important;  /* or #1f52a5 if you want it blue */
+  border-top:1px solid var(--border) !important;
+  border-bottom:none !important;
+}
+
+/* If custom class for those separators */
+.tt-divider{ background:none !important; border-top:1px solid var(--border) !important; height:0 !important; }
