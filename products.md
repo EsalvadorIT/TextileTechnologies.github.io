@@ -8,7 +8,7 @@ permalink: /products/
 
 # Products
 
-## ROUTEMANAGER  
+## ROUTEMANAGER {#routemanager}
 **Your Command Center for Business Success**  
 *Client/Server Based Software Package*  
 
@@ -18,7 +18,7 @@ This system manages billing, contracts, deliveries, and renewals — simplifying
 
 ---
 
-## WEBMANAGER  
+## WEBMANAGER {#webmanager}
 **24/7 Online Access. Real-Time Control**  
 *Client/Server Based Web System*  
 
@@ -26,7 +26,7 @@ WebManager is a secure, web-based platform that extends the power of RouteManage
 
 ---
 
-## INVENTORY MANAGER  
+## INVENTORY MANAGER {#inventory-manager}
 **Reduce Waste. Boost Accuracy. Own Your Inventory**  
 *Inventory Tracking with RFIDs*  
 
@@ -34,7 +34,7 @@ InventoryManager provides advanced garment tracking using barcodes, RFID, or oth
 
 ---
 
-## MOBILE ROUTEMANAGER  
+## MOBILE ROUTEMANAGER {#mobile-routemanager}
 **Routeman Software At Your Fingertips**  
 *Handhelds for Route Personnel*  
 
@@ -42,7 +42,7 @@ Mobile RouteManager is a modular handheld route accounting system that equips yo
 
 ---
 
-## WORKORDERMANAGER  
+## WORKORDERMANAGER {#workorder-manager}
 **Close Orders Faster, Deliver with Confidence**  
 *Stockroom Garment Fulfillment*  
 
@@ -50,7 +50,7 @@ WorkOrderManager is an optional module for uniform rental operations that automa
 
 ---
 
-## BULK SCANNING  
+## BULK SCANNING {#bulk-scanning}
 **High-Volume Scanning, Zero Hassle**  
 *Client/Server Based Web System*  
 
@@ -58,14 +58,14 @@ Bulk Scanning enables automated RFID tracking, sorting, and assignment of shared
 
 ---
 
-## MAT TRACKER  
+## MAT TRACKER {#mat-tracker}
 **Total Traceability. Smarter Mat Management.**  
 
 MatTracker is a smart, RFID-powered system that delivers full visibility and control over mat inventory and processing. With a live on-screen dashboard, it enables real-time tracking, smart loading queue generation, idle time indicators, and one-touch mat scanning for fast build, load, and delivery. Built for efficiency, MatTracker automates sorting and clean-out while providing dynamic item validation, substitution, and complete scan history—ensuring end-to-end traceability down to the contract level.
 
 ---
 
-## VEHICLE MANAGER  
+## VEHICLE MANAGER {#vehicle-manager}
 **Every Vehicle. Every Record. One Dashboard**  
 *Client/Server Based Web System*  
 
@@ -73,7 +73,7 @@ VehicleManager tracks mileage, fuel usage, service records, and alerts across yo
 
 ---
 
-## eSendServer  
+## eSendServer {#esendserver}
 **Invoices, Statements, Reports—Delivered Automatically**  
 *Client/Server Based Web System*  
 
@@ -84,3 +84,4 @@ eSendServer automates the delivery of invoices, statements, and custom reports t
     Request a Demo / Get a Quote
   </a>
 </p>
+
