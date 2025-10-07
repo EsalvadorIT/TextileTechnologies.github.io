@@ -1,0 +1,62 @@
+---
+# leave this front matter so GitHub Pages processes SCSS
+---
+
+/* ===== Color palette (edit these!) ===== */
+:root{
+  --brand:#309c2f;         /* primary */
+  --brand-600:#268126;
+  --ink:#1f2937;           /* text */
+  --muted:#6b7280;
+  --bg:#ffffff;
+  --card:#f9fafb;
+  --border:#e5e7eb;
+  --link:#0ea5e9;          /* secondary/accent */
+}
+
+/* ===== Base styles ===== */
+html{scroll-behavior:smooth}
+body{font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:var(--ink); background:var(--bg); margin:0}
+a{color:var(--link); text-decoration:underline}
+h1,h2,h3{line-height:1.2; margin:1.2rem 0 .6rem}
+hr{border:0; border-top:1px solid var(--border); margin:2rem 0}
+
+/* ===== Buttons ===== */
+.btn{
+  display:inline-block; padding:.75rem 1.25rem; border-radius:.5rem;
+  font-weight:700; text-decoration:none; border:1px solid transparent;
+}
+.btn-brand{ background:var(--brand); color:#fff }
+.btn-brand:hover{ background:var(--brand-600) }
+.btn-outline{ background:transparent; border-color:var(--brand); color:var(--brand) }
+.btn-outline:hover{ background:var(--brand); color:#fff }
+
+/* ===== Cards & layout helpers ===== */
+.container{max-width:980px; margin-inline:auto; padding:0 1rem}
+.card{background:var(--card); border:1px solid var(--border); border-radius:.75rem; padding:1rem}
+.grid{display:grid; gap:1rem}
+.grid-3{grid-template-columns:repeat(auto-fit, minmax(220px, 1fr))}
+
+/* ===== Images ===== */
+.img-fluid{max-width:100%; height:auto; display:block}
+.rounded{border-radius:.75rem}
+.shadow{box-shadow:0 6px 18px rgba(0,0,0,.08)}
+
+/* ===== Hero banner with image ===== */
+.hero{
+  position:relative; border-radius:1rem; overflow:hidden; min-height:280px;
+  display:grid; place-items:center; text-align:center; color:#fff;
+}
+.hero::before{
+  content:""; position:absolute; inset:0;
+  background:linear-gradient( to bottom right, rgba(0,0,0,.35), rgba(0,0,0,.55) );
+}
+.hero > .hero-content{ position:relative; padding:3rem 1rem }
+.hero h1{ color:#fff; margin:0 0 .5rem }
+.hero p{ color:#f3f4f6; margin:0 0 1rem }
+
+/* ===== Dark mode (auto) ===== */
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0b0f16; --ink:#e5e7eb; --card:#111827; --border:#1f2937; --link:#38bdf8 }
+  .btn-outline{ border-color:var(--brand); color:#fff }
+}
