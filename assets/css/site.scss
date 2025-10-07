@@ -116,8 +116,17 @@ hr{border:0; border-top:1px solid var(--border); margin:2rem 0}
 }
 .suite:hover{ background:#e8f0ff; }
 
+/* 3/4-inch icons */
+.suite{ --icon-size: 0.75in; }  /* 0.75in = 72px */
+
 .suite svg{
-  width:20px; height:20px;
-  flex:0 0 20px;
+  width:var(--icon-size);
+  height:var(--icon-size);
+  flex:0 0 var(--icon-size);
   color:var(--brand-blue);
+}
+
+/* optional: make them smaller on phones */
+@media (max-width:560px){
+  .suite{ --icon-size: 40px; }  /* ~0.42in on small screens */
 }
