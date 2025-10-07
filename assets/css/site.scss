@@ -156,12 +156,10 @@ hr{border:0; border-top:1px solid var(--border); margin:2rem 0}
 @media (max-width:560px){
   .suite{ --icon-size: 40px; }  /* ~0.42in on small screens */
 }
-/* ===== Footer (Cayman) override ===== */
+/* Transparent footer (no color bar) */
 .site-footer{
-  background:#1f52a5;   /* brand blue */
-  color:#fff;
-  border-top:none;
+  background:transparent;
+  color:inherit;
+  border-top:1px solid var(--border);
 }
-.site-footer a{ color:#fff; text-decoration:underline; }
-.site-footer a:hover{ opacity:.85; }
-
+.site-footer a{ color:var(--link); }
