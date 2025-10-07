@@ -156,10 +156,10 @@ hr{border:0; border-top:1px solid var(--border); margin:2rem 0}
 @media (max-width:560px){
   .suite{ --icon-size: 40px; }  /* ~0.42in on small screens */
 }
-/* Transparent footer (no color bar) */
+/* Footer override */
 .site-footer{
-  background:transparent;
-  color:inherit;
-  border-top:1px solid var(--border);
+  background:#1f52a5 !important;   /* or use 'transparent' to remove color */
+  color:#fff !important;
+  border-top:none !important;
 }
-.site-footer a{ color:var(--link); }
+.site-footer a, .site-footer-credits{ color:#fff !important; }
