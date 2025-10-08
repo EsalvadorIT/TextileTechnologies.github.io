@@ -60,7 +60,6 @@ Bulk Scanning enables automated RFID tracking, sorting, and assignment of shared
 
 ## MAT TRACKER {#mat-tracker}
 **Total Traceability. Smarter Mat Management.**
-
 *Mat Lifecycle Management*
 
 
