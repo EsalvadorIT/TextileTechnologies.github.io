@@ -82,9 +82,10 @@ VehicleManager tracks mileage, fuel usage, service records, and alerts across yo
 
 eSendServer automates the delivery of invoices, statements, and custom reports to multiple recipients—saving time, reducing manual tasks, and ensuring that nothing gets missed. It streamlines communication by delivering critical documents automatically, reliably, and efficiently, every time.
 
-<p style="text-align:center; margin-top:2rem;">
-  <a href="{{ "/contact/" | relative_url }}" style="padding:0.8rem 1.5rem; background:#309c2f; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold; font-size:1.1rem;">
+<p class="cta-wrap" style="text-align:center; margin-top:2rem;">
+  <a class="btn-demo" href="{{ '/contact/' | relative_url }}">
     Request a Demo / Get a Quote
   </a>
 </p>
+
 
