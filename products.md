@@ -60,7 +60,9 @@ Bulk Scanning enables automated RFID tracking, sorting, and assignment of shared
 
 ## MAT TRACKER {#mat-tracker}
 **Total Traceability. Smarter Mat Management.**
+
 *Mat Lifecycle Management*
+
 
 MatTracker is a smart, RFID-powered system that delivers full visibility and control over mat inventory and processing. With a live on-screen dashboard, it enables real-time tracking, smart loading queue generation, idle time indicators, and one-touch mat scanning for fast build, load, and delivery. Built for efficiency, MatTracker automates sorting and clean-out while providing dynamic item validation, substitution, and complete scan history—ensuring end-to-end traceability down to the contract level.
 
