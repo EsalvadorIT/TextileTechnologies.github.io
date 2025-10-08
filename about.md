@@ -18,11 +18,7 @@ Textile Technologies is a leading provider of software products and industry ins
 Our mission at TT is rooted in a deep commitment to the textile rental industry.
 We engage directly with industry associations and initiatives to ensure continuous innovation and collective progress.
 
-<p class="cta-wrap" style="text-align:center; margin-top:2rem;">
-  <a class="btn-demo" href="{{ '/contact/' | relative_url }}">
-    Request a Demo / Get a Quote
-  </a>
-</p>
+
 
 <!-- Meet the Team Section -->
 <section style="padding:2rem; background-color:#fff; text-align:center; border-top:1px solid #ddd;">
@@ -46,7 +42,6 @@ We engage directly with industry associations and initiatives to ensure continuo
       <h3 style="margin:.25rem 0;">Dawn Vaughn</h3>
       <p>As VP, Dawn anchors our team with unmatched technical skill and operational depth. From programming to managing high-level support strategies, she ensures our software and support stays strong and responsive.</p>
     </div>
-
     <!-- Emily (centered under Joe & Dawn) -->
     <div class="team-card team-emily">
       <h4 style="margin:0; color:#1f52a5;">Tech Support Specialist</h4>
@@ -58,3 +53,10 @@ We engage directly with industry associations and initiatives to ensure continuo
 
   <hr class="tt-divider">
 </section>
+
+
+<p class="cta-wrap" style="text-align:center; margin-top:2rem;">
+  <a class="btn-demo" href="{{ '/contact/' | relative_url }}">
+    Request a Demo / Get a Quote
+  </a>
+</p>
