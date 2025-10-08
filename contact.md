@@ -26,12 +26,12 @@ Cleburne, TX 76033
 
 ---
 
-<p style="text-align:center; margin-top:2rem;">
-  <!-- Changed href to jump to the form on this page -->
-  <a href="#request-demo" style="padding:0.8rem 1.5rem; background:#309c2f; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold; font-size:1.1rem;">
+<p class="cta-wrap" style="text-align:center; margin-top:2rem;">
+  <a class="btn-demo" href="{{ '/contact/' | relative_url }}">
     Request a Demo / Get a Quote
   </a>
 </p>
+
 
 <hr style="margin:3rem 0;" />
 
