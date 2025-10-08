@@ -26,8 +26,9 @@ permalink: /testimonials/
 
 ---
 
-<p style="text-align:center; margin-top:2rem;">
-  <a href="{{ "/contact/" | relative_url }}" style="padding:0.8rem 1.5rem; background:#309c2f; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold; font-size:1.1rem;">
+<p class="cta-wrap" style="text-align:center; margin-top:2rem;">
+  <a class="btn-demo" href="{{ '/contact/' | relative_url }}">
     Request a Demo / Get a Quote
   </a>
 </p>
+
