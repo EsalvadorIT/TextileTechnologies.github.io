@@ -76,3 +76,25 @@ body {
   height: 1px;
   opacity: 0.7;
 }
+/* CTA: always-visible blue text */
+.btn-demo{
+  display:inline-block;
+  padding:.8rem 1.5rem;
+  border-radius:8px;
+  font-weight:700;
+  font-size:1.1rem;
+  text-decoration:none;
+  background:#fff;
+  border:2px solid var(--brand-blue);
+  color:var(--brand-blue) !important;  /* override global link color */
+}
+.btn-demo:link,
+.btn-demo:visited,
+.btn-demo:hover,
+.btn-demo:active,
+.btn-demo:focus{
+  color:var(--brand-blue) !important;
+  text-decoration:none;
+}
+.btn-demo:hover,
+.btn-demo:focus{ background:#e8f0ff; }
