@@ -117,7 +117,7 @@ body {
   padding:1rem;
 }
 
-/* Center Emily on her own row */
+/* Center */
 .team-emily{
   grid-column:1 / -1;       /* span the full row */
   justify-self:center;      /* center the card itself */
