@@ -76,7 +76,7 @@ body {
   height: 1px;
   opacity: 0.7;
 }
-/* CTA: always-visible blue text */
+/* Solid green CTA, white text (overrides global link colors) */
 .btn-demo{
   display:inline-block;
   padding:.8rem 1.5rem;
@@ -84,17 +84,20 @@ body {
   font-weight:700;
   font-size:1.1rem;
   text-decoration:none;
-  background:#fff;
-  border:2px solid var(--brand-blue);
-  color:var(--brand-blue) !important;  /* override global link color */
+  background: var(--brand);        /* #309c2f */
+  border:2px solid var(--brand);
+  color:#fff !important;           /* stay white even with global a{} rules */
 }
 .btn-demo:link,
 .btn-demo:visited,
 .btn-demo:hover,
 .btn-demo:active,
 .btn-demo:focus{
-  color:var(--brand-blue) !important;
+  color:#fff !important;           /* stay white in all states */
   text-decoration:none;
 }
 .btn-demo:hover,
-.btn-demo:focus{ background:#e8f0ff; }
+.btn-demo:focus{
+  background: var(--brand-600);    /* darker green on hover */
+  border-color: var(--brand-600);
+}
