@@ -34,13 +34,6 @@ a:hover { color: var(--brand-blue) !important; }
   background: var(--brand-blue) !important;
 }
 
-/* Footer */
-footer, .site-footer {
-  background: var(--brand-brown) !important;
-  color: var(--brand-white) !important;
-}
-footer a, .site-footer a { color: var(--brand-green) !important; }
-footer a:hover, .site-footer a:hover { color: var(--brand-white) !important; }
 
 /* Body */
 body {
@@ -48,10 +41,9 @@ body {
   color: #1b1b1b !important;
 }
 /* assets/css/custom.css */
-:root{
-  /* If you know your exact blue, put it here. 
+:root{ 
      #1e6bb8 is the Cayman theme link blue and a good default. */
-  --brand-blue: #1e6bb8;
+   --brand-blue:  #1f52a5;
 }
 
 /* Simple solid line */
@@ -127,4 +119,22 @@ body {
 /* Mobile: let Emily fill the width */
 @media (max-width:640px){
   .team-emily{ max-width:none; }
+}
+
+
+
+/* Footer — blue background, white links */
+footer, .site-footer{
+  background: var(--brand-blue) !important; /* e.g., #1f52a5 */
+  color:#fff !important;
+  border-top:none !important;
+}
+
+footer a, .site-footer a, .site-footer-credits{
+  color:#fff !important;                /* readable on blue */
+}
+
+footer a:hover, .site-footer a:hover{
+  color:#fff !important;
+  text-decoration: underline;
 }
