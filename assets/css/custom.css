@@ -101,3 +101,30 @@ body {
   background: var(--brand-600);    /* darker green on hover */
   border-color: var(--brand-600);
 }
+/* Team grid */
+.team-grid{
+  display:grid;
+  gap:1.5rem;
+  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+  margin-top:1rem;
+}
+
+/* Team cards */
+.team-card{
+  background:#fefefe;
+  border:1px solid #e6e6e6;
+  border-radius:10px;
+  padding:1rem;
+}
+
+/* Center Emily on her own row */
+.team-emily{
+  grid-column:1 / -1;       /* span the full row */
+  justify-self:center;      /* center the card itself */
+  max-width:520px;          /* keep it a nice readable width */
+}
+
+/* Mobile: let Emily fill the width */
+@media (max-width:640px){
+  .team-emily{ max-width:none; }
+}
