@@ -52,14 +52,15 @@ WorkOrderManager is an optional module for uniform rental operations that automa
 
 ## BULK SCANNING {#bulk-scanning}
 **High-Volume Scanning, Zero Hassle**  
-*Client/Server Based Web System*  
+*RFID Inventory Tracking & Sorting*  
 
 Bulk Scanning enables automated RFID tracking, sorting, and assignment of shared service items—optimizing inventory management at scale. By capturing every scan in real time, it ensures complete traceability across all stages of handling, from intake to delivery.
 
 ---
 
 ## MAT TRACKER {#mat-tracker}
-**Total Traceability. Smarter Mat Management.**  
+**Total Traceability. Smarter Mat Management.**
+*Mat Lifecycle Management*
 
 MatTracker is a smart, RFID-powered system that delivers full visibility and control over mat inventory and processing. With a live on-screen dashboard, it enables real-time tracking, smart loading queue generation, idle time indicators, and one-touch mat scanning for fast build, load, and delivery. Built for efficiency, MatTracker automates sorting and clean-out while providing dynamic item validation, substitution, and complete scan history—ensuring end-to-end traceability down to the contract level.
 
@@ -67,7 +68,7 @@ MatTracker is a smart, RFID-powered system that delivers full visibility and con
 
 ## VEHICLE MANAGER {#vehicle-manager}
 **Every Vehicle. Every Record. One Dashboard**  
-*Client/Server Based Web System*  
+*Vehicle Logistics Operations*  
 
 VehicleManager tracks mileage, fuel usage, service records, and alerts across your entire fleet—giving you the tools to control costs, maintain compliance, and stay ahead of routine maintenance.
 
@@ -75,7 +76,7 @@ VehicleManager tracks mileage, fuel usage, service records, and alerts across yo
 
 ## eSendServer {#esendserver}
 **Invoices, Statements, Reports—Delivered Automatically**  
-*Client/Server Based Web System*  
+*Automated Communications Gateway*  
 
 eSendServer automates the delivery of invoices, statements, and custom reports to multiple recipients—saving time, reducing manual tasks, and ensuring that nothing gets missed. It streamlines communication by delivering critical documents automatically, reliably, and efficiently, every time.
 
