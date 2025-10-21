@@ -44,7 +44,7 @@ We engage directly with industry associations and initiatives to ensure continuo
     </div>
     <!-- Emily (centered under Joe & Dawn) -->
     <div class="team-card team-emily">
-      <h4 style="margin:0; color:#1f52a5;">Tech Support Specialist</h4>
+      <h4 style="margin:0; color:#1f52a5;">Software Support & Reporting Specialist</h4>
       <h3 style="margin:.25rem 0;">Emily Salvador</h3>
       <p>With a foundation in data analytics and a growing focus in tech and business development, Emily is an ambitious specialist evolving alongside the company—committed to creating value and proud to be part of a forward-thinking team.</p>
     </div>
