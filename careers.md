@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Careers
+permalink: /Careers/
 ---
 
 {% include top-nav.html %}
