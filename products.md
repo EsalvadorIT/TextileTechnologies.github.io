@@ -26,7 +26,7 @@ WebManager is a secure, web-based platform that extends the power of RouteManage
 
 ---
 
-## INVENTORY MANAGER {#inventory-manager}
+## INVENTORYMANAGER {#inventory-manager}
 **Reduce Waste. Boost Accuracy. Own Your Inventory**  
 *Inventory Tracking with RFIDs*  
 
@@ -34,7 +34,7 @@ InventoryManager provides advanced garment tracking using barcodes, RFID, or oth
 
 ---
 
-## MOBILE ROUTEMANAGER {#mobile-routemanager}
+## MOBILEROUTEMANAGER {#mobile-routemanager}
 **Routeman Software At Your Fingertips**  
 *Handhelds for Route Personnel*  
 
@@ -68,7 +68,7 @@ MatTracker is a smart, RFID-powered system that delivers full visibility and con
 
 ---
 
-## VEHICLE MANAGER {#vehicle-manager}
+## VEHICLEMANAGER {#vehicle-manager}
 **Every Vehicle. Every Record. One Dashboard**  
 *Vehicle Logistics Operations*  
 
