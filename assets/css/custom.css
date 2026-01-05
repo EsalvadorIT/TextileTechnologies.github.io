@@ -9,20 +9,32 @@
 }
 
 /* Header (Cayman uses a big colored header) */
-header.page-header {
+header.page-header,
+.page-header {
   background: linear-gradient(120deg, var(--brand-blue), var(--brand-green)) !important;
   color: var(--brand-white) !important;
+  background-image: none !important;
 }
 
-/* Site title & tagline (in the header) */
+/* Site title & tagline (in the Cayman header) */
 .project-name,
 .project-tagline {
   color: var(--brand-white) !important;
 }
 
-/* Links */
-a { color: var(--brand-green) !important; }
-a:hover { color: var(--brand-blue) !important; }
+/* Body */
+body {
+  background: var(--brand-white) !important;
+  color: #1b1b1b !important;
+}
+
+/* Links (Global) */
+a { 
+  color: var(--brand-green) !important; 
+}
+a:hover { 
+  color: var(--brand-blue) !important; 
+}
 
 /* Buttons (if you use .btn links) */
 .btn, .button, .site-button {
@@ -34,20 +46,19 @@ a:hover { color: var(--brand-blue) !important; }
   background: var(--brand-blue) !important;
 }
 
-
-/* Body */
-body {
-  background: var(--brand-white) !important;
-  color: #1b1b1b !important;
+/* Reveal animation (if used on pages) */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 600ms ease, transform 600ms ease;
 }
-/* assets/css/custom.css */
-:root{ 
-     #1e6bb8 is the Cayman theme link blue and a good default. */
-   --brand-blue:  #1f52a5;
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-/* Simple solid line */
-.tt-divider{
+/* Divider line */
+.tt-divider {
   border: 0;
   display: block;
   height: 3px;
@@ -58,84 +69,87 @@ body {
 }
 
 /* Optional: subtle fade from blue to transparent */
-.tt-divider.fade{
+.tt-divider.fade {
   height: 2px;
   background: linear-gradient(to right, var(--brand-blue), transparent 70%);
 }
 
 /* Optional: thin rule */
-.tt-divider.thin{
+.tt-divider.thin {
   height: 1px;
   opacity: 0.7;
 }
-/* Solid green CTA, white text (overrides global link colors) */
-.btn-demo{
-  display:inline-block;
-  padding:.8rem 1.5rem;
-  border-radius:8px;
-  font-weight:700;
-  font-size:1.1rem;
-  text-decoration:none;
-  background: var(--brand);        /* #309c2f */
-  border:2px solid var(--brand);
-  color:#fff !important;           /* stay white even with global a{} rules */
+
+/* Demo Button (Solid green CTA, white text) */
+.btn-demo {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  background: var(--brand-green);
+  border: 2px solid var(--brand-green);
+  color: #fff !important; /* override global link colors */
 }
 .btn-demo:link,
 .btn-demo:visited,
 .btn-demo:hover,
 .btn-demo:active,
-.btn-demo:focus{
-  color:#fff !important;           /* stay white in all states */
-  text-decoration:none;
+.btn-demo:focus {
+  color: #fff !important;
+  text-decoration: none;
 }
 .btn-demo:hover,
-.btn-demo:focus{
-  background: var(--brand-600);    /* darker green on hover */
-  border-color: var(--brand-600);
+.btn-demo:focus {
+  background: #247a24;       /* darker green on hover */
+  border-color: #247a24;
 }
+
 /* Team grid */
-.team-grid{
-  display:grid;
-  gap:1.5rem;
-  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
-  margin-top:1rem;
+.team-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-top: 1rem;
 }
 
 /* Team cards */
-.team-card{
-  background:#fefefe;
-  border:1px solid #e6e6e6;
-  border-radius:10px;
-  padding:1rem;
+.team-card {
+  background: #fefefe;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
-/* Center */
-.team-emily{
-  grid-column:1 / -1;       /* span the full row */
-  justify-self:center;      /* center the card itself */
-  max-width:520px;          /* keep it a nice readable width */
+/* Center Emily card */
+.team-emily {
+  grid-column: 1 / -1; /* span the full row */
+  justify-self: center;
+  max-width: 520px;
 }
 
-/* Mobile: let Emily fill the width */
-@media (max-width:640px){
-  .team-emily{ max-width:none; }
+/* Mobile: let Emily fill width */
+@media (max-width: 640px) {
+  .team-emily { max-width: none; }
 }
-
-
 
 /* Footer — blue background, white links */
-footer, .site-footer{
-  background: var(--brand-blue) !important; /* e.g., #1f52a5 */
-  color:#fff !important;
-  border-top:none !important;
+footer, .site-footer {
+  background: var(--brand-blue) !important;
+  color: #fff !important;
+  border-top: none !important;
 }
 
-footer a, .site-footer a, .site-footer-credits{
-  color:#fff !important;                /* readable on blue */
+footer a, 
+.site-footer a, 
+.site-footer-credits {
+  color: #fff !important;
 }
 
-footer a:hover, .site-footer a:hover{
-  color:#fff !important;
+footer a:hover, 
+.site-footer a:hover {
+  color: #fff !important;
   text-decoration: underline;
 }
 
@@ -149,7 +163,7 @@ footer a:hover, .site-footer a:hover{
 }
 
 .top-nav a {
-  color: #1f52a5;
+  color: var(--brand-blue) !important; /* overrides global a{} !important */
   margin: 0 18px;
   text-decoration: none;
   font-weight: 600;
@@ -158,6 +172,7 @@ footer a:hover, .site-footer a:hover{
 }
 
 .top-nav a:hover {
-  color: #309c2f;
+  color: var(--brand-green) !important;
   text-decoration: underline;
 }
+
