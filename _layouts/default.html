@@ -8,24 +8,24 @@
     {% include head-custom.html %}
   </head>
 
-  <body>
-  {% unless page.url == "/" %}
-    {% include top-nav.html %}
-  {% endunless %}
+  <body class="{{ page.body_class }}">
 
     {% unless page.url == "/" %}
-  <!-- Logo Bar (shows on every page except Home) -->
-  <div style="text-align:center; padding:1rem 0;">
-    <div style="display:inline-flex; align-items:center; justify-content:center; background:rgba(255,255,255,0.75); padding:0.75rem 1.25rem; border-radius:10px;">
-      <a href="{{ '/' | relative_url }}" style="display:inline-block;">
-        <img src="{{ 'logo_vector.png' | relative_url }}"
-             alt="Textile Technologies"
-             style="height:60px; max-width:320px; object-fit:contain; display:block;">
-      </a>
-    </div>
-  </div>
-{% endunless %}
+      <!-- Logo Bar (shows on every page except Home) -->
+      <div style="text-align:center; padding:1rem 0;">
+        <div style="display:inline-flex; align-items:center; justify-content:center; background:rgba(255,255,255,0.75); padding:0.75rem 1.25rem; border-radius:10px;">
+          <a href="{{ '/' | relative_url }}" style="display:inline-block;">
+            <img src="{{ 'logo_vector.png' | relative_url }}"
+                 alt="Textile Technologies"
+                 style="height:60px; max-width:320px; object-fit:contain; display:block;">
+          </a>
+        </div>
+      </div>
+
+      {% include top-nav.html %}
+    {% endunless %}
 
     {{ content }}
+
   </body>
 </html>
