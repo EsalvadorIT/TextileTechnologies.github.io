@@ -138,3 +138,26 @@ footer a:hover, .site-footer a:hover{
   color:#fff !important;
   text-decoration: underline;
 }
+
+/* Top Navigation (professional style) */
+.top-nav {
+  background: #ffffff;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.top-nav a {
+  color: #1f52a5;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.2px;
+}
+
+.top-nav a:hover {
+  color: #309c2f;
+  text-decoration: underline;
+}
