@@ -175,4 +175,19 @@ footer a:hover,
   color: var(--brand-green) !important;
   text-decoration: underline;
 }
+/* Active Nav Link Highlight */
+.top-nav a.active {
+  color: var(--brand-green) !important;
+  position: relative;
+}
+
+/* Underline bar */
+.top-nav a.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--brand-green);
+  margin: 6px auto 0 auto;
+}
 
