@@ -191,3 +191,9 @@ footer a:hover,
   margin: 6px auto 0 auto;
 }
 
+/* Hide Cayman theme's default header nav (extra nav at top) */
+.page-header nav,
+header.page-header nav,
+.main-content header + nav {
+  display: none !important;
+}
