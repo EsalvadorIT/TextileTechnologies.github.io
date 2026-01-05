@@ -9,7 +9,9 @@
   </head>
 
   <body>
+  {% unless page.url == "/" %}
     {% include top-nav.html %}
+  {% endunless %}
 
     <!-- Logo Bar (shows on every page) -->
     <div style="text-align:center; padding:1rem 0;">
