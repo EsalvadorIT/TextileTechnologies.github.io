@@ -153,28 +153,39 @@ footer a:hover,
   text-decoration: underline;
 }
 
-/* Top Navigation (professional style) */
+/* Top Navigation (professional style + wraps nicely) */
 .top-nav {
   background: #ffffff;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
   padding: 12px 0;
+
+  /* Keep links centered and wrap cleanly on smaller screens */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+
   text-align: center;
 }
 
 .top-nav a {
   color: var(--brand-blue) !important; /* overrides global a{} !important */
-  margin: 0 18px;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
   letter-spacing: 0.2px;
+
+  /* Nicer clickable area */
+  display: inline-block;
+  padding: 8px 10px;
 }
 
 .top-nav a:hover {
   color: var(--brand-green) !important;
   text-decoration: underline;
 }
+
 /* Active Nav Link Highlight */
 .top-nav a.active {
   color: var(--brand-green) !important;
