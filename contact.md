@@ -4,7 +4,7 @@ title: Contact Us
 permalink: /contact/
 ---
 
-{% include top-nav.html %}
+
 
 # Contact Us
 
