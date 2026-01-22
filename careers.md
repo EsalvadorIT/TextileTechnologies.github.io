@@ -4,8 +4,6 @@ title: Careers
 permalink: /careers/
 ---
 
-{% include top-nav.html %}
-
 
 <!-- Hiring Section -->
 <section style="padding:2rem; background-color:#f8f8f8; text-align:center; border-top:1px solid #ddd; border-bottom:1px solid #ddd;">
