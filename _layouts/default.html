@@ -11,21 +11,23 @@
   <body class="{{ page.body_class }}">
 
     {% unless page.url == "/" %}
-      <!-- Logo Bar (shows on every page except Home) -->
-      <div style="text-align:center; padding:1rem 0;">
-        <div style="display:inline-flex; align-items:center; justify-content:center; background:rgba(255,255,255,0.75); padding:0.75rem 1.25rem; border-radius:10px;">
-          <a href="{{ '/' | relative_url }}" style="display:inline-block;">
-            <img src="{{ 'logo_vector.png' | relative_url }}"
-                 alt="Textile Technologies"
-                 style="height:60px; max-width:320px; object-fit:contain; display:block;">
-          </a>
+      <!-- Logo Bar + Nav (not on Home) -->
+      <div class="container">
+        <div style="text-align:center; padding:1rem 0;">
+          <div style="display:inline-flex; align-items:center; justify-content:center; background:rgba(255,255,255,0.75); padding:0.75rem 1.25rem; border-radius:10px;">
+            <a href="{{ '/' | relative_url }}" style="display:inline-block;">
+              <img src="{{ 'logo_vector.png' | relative_url }}"
+                   alt="Textile Technologies"
+                   style="height:60px; max-width:320px; object-fit:contain; display:block;">
+            </a>
+          </div>
         </div>
-      </div>
 
-      {% include top-nav.html %}
+        {% include top-nav.html %}
+      </div>
     {% endunless %}
 
-    <main class="page-content">
+    <main class="main-content">
       <div class="container">
         {{ content }}
       </div>
