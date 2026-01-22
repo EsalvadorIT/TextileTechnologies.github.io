@@ -4,8 +4,6 @@ title: Testimonials
 permalink: /testimonials/
 ---
 
-{% include top-nav.html %}
-
 # Testimonials
 
 > “I saw a presentation of TextileTechnologies’ RouteManager software at a CSC meeting in 2001. We switched from our prior route accounting software shortly after and we’ve never looked back. Every enhancement we could think of has been implemented and the commitment to personal service continues every day.”  
