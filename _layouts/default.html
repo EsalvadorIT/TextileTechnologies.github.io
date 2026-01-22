@@ -10,7 +10,6 @@
 
   <body class="{{ page.body_class }}">
 
-    {% unless page.url == "/" %}
       <!-- Logo Bar + Nav (not on Home) -->
       <div class="container">
         <div style="text-align:center; padding:1rem 0;">
@@ -25,7 +24,6 @@
 
         {% include top-nav.html %}
       </div>
-    {% endunless %}
 
     <main class="main-content">
       <div class="container">
