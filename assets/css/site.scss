@@ -180,4 +180,32 @@ hr{border:0; border-top:1px solid var(--border); margin:2rem 0}
 }
 
 /* If custom class for those separators */
-.tt-divider{ background:none !important; border-top:1px solid var(--border) !important; height:0 !important; }
+.tt-divider{ background:none !important; border-top:1px solid var(--border) !important; height:0 !important; } 
+
+/* ===== Team section ===== */
+.team-grid{
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-top: 1rem;
+}
+
+.team-card{
+  background: #fefefe;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+/* Dawn centered above */
+.team-dawn{
+  grid-column: 1 / -1;   /* span full row */
+  justify-self: center;
+  max-width: 520px;
+}
+
+@media (max-width: 640px){
+  .team-dawn{ max-width: none; }
+}
+
+
