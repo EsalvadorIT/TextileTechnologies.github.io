@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-{% include top-nav.html %}
-
-
 # About Textile Technologies
 
 Textile Technologies is a leading provider of software products and industry insights. Our team is passionate about leveraging technology to empower businesses and drive success.
