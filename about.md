@@ -79,7 +79,7 @@ We engage directly with industry associations and initiatives to ensure continuo
       <h4 style="margin:0; color:#1f52a5;">Owner and President</h4>
       <h3 style="margin:.25rem 0;">Dawn Vaughn</h3>
       <p>
-        As VP, Dawn anchors our team with unmatched technical skill and operational depth. From programming to managing high-level support strategies, she ensures our software and support stays strong and responsive.
+        As Owner and President, Dawn anchors our team with unmatched technical skill and operational depth. From programming to managing high-level support strategies, she ensures our software and support stays strong and responsive.
       </p>
     </div>
 
